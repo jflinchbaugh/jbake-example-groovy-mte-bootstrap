@@ -7,7 +7,7 @@ div(class: 'navbar navbar-default navbar-fixed-top', role: 'navigation') {
                 'data-toggle': 'collapse',
                 'data-target': '.navbar-collapse'
             ) {
-               span(class: 'src-only', 'Toggle navigation')
+               span(class: 'sr-only', 'Toggle navigation')
                span(class: 'icon-bar')
                span(class: 'icon-bar')
                span(class: 'icon-bar')
