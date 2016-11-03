@@ -7,8 +7,6 @@ layout(
         }
         published_posts.collect().groupBy {
             it.date.format('MMMM yyyy')
-        }.toSorted { a, b ->
-            a.key <=> b.key
         }.each { month, posts ->
             h4(month)
             ul {
